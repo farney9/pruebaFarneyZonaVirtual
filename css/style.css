@@ -1,0 +1,41 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/css?family=Roboto);
+/* @import url(//raw.githubusercontent.com/daneden/animate.css/master/animate.css); */
+
+/* Styles created by @farney9 Sep-2020*/
+.minh-100 {
+  height: 100vh;
+}
+.bg-zona-virtual{
+  background-color: #0e7474;
+}
+.content {
+  min-height: 100vh;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+  }
+  
+  .button-collapse {
+  position: fixed;
+  left: 18%;
+  top: 10px;
+  z-index: 9999;
+  }
+
+  header, section {
+    padding: 20px;
+  }
+  .card {
+    width: 100%;
+    margin-bottom: 15px;
+    color: #000;
+  }
+  
+  @media(min-width: 1440px) {
+  .content {
+    padding-left: 250px;
+    }
+  }
+
+  /* Chart.js */
+@-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}@keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}.chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}

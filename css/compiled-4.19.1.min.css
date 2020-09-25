@@ -1,0 +1,119 @@
+
+  .pills-peach-gradient .nav-item .nav-link.active {
+        background: linear-gradient(40deg, #FFD86F, #FC6262);
+    }
+    .pills-blue-gradient .nav-item .nav-link.active {
+        background: linear-gradient(40deg, #45cafc, #303f9f);
+    }
+    .pills-purple-gradient .nav-item .nav-link.active {
+        background: linear-gradient(40deg, #ff6ec4, #7873f5);
+    }
+    .pills-aqua-gradient .nav-item .nav-link.active {
+        background: linear-gradient(40deg, #2096ff, #05ffa3);
+    }
+
+    .pills-success .nav-item .dropdown-toggle.nav-link:focus {
+        background-color: #00C851;
+        color: #fff;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    }
+
+    .pills-rounded .nav-item .nav-link {
+        border-radius: 10em;
+    }
+    .pills-light-purple .nav-item .nav-link.active {
+        background-color: #ba68c8;
+    }
+
+    .pills-outline-red .nav-item .nav-link {
+        border: 2px solid #fff;
+        color: #666;
+        background-color: transparent;
+    }
+    .pills-outline-red .nav-item .nav-link:hover {
+        border: 2px solid #eee;
+    }
+    .pills-outline-red .nav-item .nav-link.active {
+        border: 2px solid #f44336;
+        color: #f44336;
+    }
+    .pills-outline-red .nav-item .nav-link.active:hover {
+        border: 2px solid #f44336;
+        color: #f44336;
+    }
+
+    .pills-outline-green .nav-item .nav-link {
+        border: 2px solid #fff;
+        color: #666;
+        background-color: transparent;
+    }
+    .pills-outline-green .nav-item .nav-link:hover {
+        border: 2px solid #eee;
+    }
+    .pills-outline-green .nav-item .nav-link.active {
+        border: 2px solid #4caf50;
+        color: #4caf50;
+    }
+    .pills-outline-green .nav-item .nav-link.active:hover {
+        border: 2px solid #4caf50;
+        color: #4caf50;
+    }
+
+    .pills-blue-teal .nav-item .nav-link.active {
+        background-color: #4fc3f7;
+        -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+        animation-name: example;
+        animation-duration: 4s;
+    }
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example {
+        from {background-color: #4fc3f7;}
+        to {background-color: #009688;}
+    }
+
+    /* Standard syntax */
+    @keyframes example {
+        from {background-color: #4fc3f7;}
+        to {background-color: #009688;}
+    }
+
+    .pills-outline-purple-anm .nav-item .nav-link.active {
+        border: 2px solid #9c27b0;
+        color: #9c27b0;
+        background-color: transparent;
+        -webkit-animation-name: outline; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+        animation-name: outline;
+        animation-duration: 4s;
+    }
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes outline {
+        from {border: 2px solid #9c27b0; color: #9c27b0;}
+        to {border: 2px solid #f48fb1; color: #f48fb1;}
+    }
+
+    /* Standard syntax */
+    @keyframes outline {
+        from {border: 2px solid #9c27b0; color: #9c27b0;}
+        to {border: 2px solid #f48fb1; color: #f48fb1;}
+    }
+
+    .pills-orange-anm .nav-item .nav-link.active {
+        background-color: #ffa000 ;
+        -webkit-animation-name: orange; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+        animation-name: orange;
+        animation-duration: 4s;
+    }
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes orange {
+        from {background-color: #ffa000 ;}
+        to {background-color: #f44336;}
+    }
+
+    /* Standard syntax */
+    @keyframes orange {
+        from {background-color: #ffa000 ;}
+        to {background-color: #f44336;}
+    }
