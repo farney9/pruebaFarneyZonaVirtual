@@ -70,7 +70,7 @@ if ($_POST) {
           </form>
           <?php
               if ($_POST) {
-                $suma = $num1 + $num2
+                $suma = $num1 + $num2;
               }
           ?>
         </div>
