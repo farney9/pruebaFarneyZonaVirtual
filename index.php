@@ -65,14 +65,15 @@ if ($_POST) {
               <button type="submit" class="btn btn-default">Sumar</button>
             </div>
             <div class="form-group">
-              <input type="number" class="form-control" id="result" placeholder="Resultado" value="<?php echo $suma ?>">
-            </div>
-          </form>
-          <?php
+            <?php
               if ($_POST) {
                 $suma = $num1 + $num2;
               }
-          ?>
+            ?>
+              <input type="number" class="form-control" id="result" placeholder="Resultado" value="<?php echo $suma ?>">
+            </div>
+          </form>
+
         </div>
       </div>
     </div>
