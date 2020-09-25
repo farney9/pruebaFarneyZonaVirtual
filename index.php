@@ -62,7 +62,7 @@ if ($_POST) {
               <input type="number" class="form-control" name="numero2"  id="number2" placeholder="Ingrese otro número" value="<?php echo $num2 ?>">
             </div>
             <div class="form-group text-center">
-              <button type="submit" class="btn btn-default">Sumar</button>
+              <button type="submit" class="btn rounded-pill bg-zona-virtual font-weight-bold text-white">Sumar</button>
             </div>
             <div class="form-group">
             <?php
